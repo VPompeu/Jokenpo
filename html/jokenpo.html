@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/jokenpo.css">
+    <script type="text/javascript" src="../js/jokenpo.js"></script>
+    <title>Jokenpô</title>
+</head>
+<body>
+    <div class="divum">
+        
+        <div class="divdois">
+            <h1 class="textum">Jokenpô</h1>
+            <h3 class="textdois">Jogador:</h3>
+            <img src="../imgs/pedra.png" alt="Pedra" class="pedra">
+            <img src="../imgs/papel.png" alt="Papel" class="papel">
+            <img src="../imgs/tesoura.png" alt="Tesoura" class="tesoura"> 
+        </div>
+
+        <div class="divtres">
+            <form name="frmJokenpo">
+                <input type="radio" name="grupo" id="pedra" class="pe">Pedra
+                <input type="radio" name="grupo" id="papel" class="pa">Papel
+                <input type="radio" name="grupo" id="tesoura" class="te">Tesoura
+                <p>
+                    <input type="button" value=" JOGAR " onclick="jogar()" class="jogar">
+                    <input type="reset" value=" RESETAR " onclick="resetar()" class="resetar">
+                </p>
+            </form>
+        </div>
+
+        <div class="divquatro">
+            <hr>
+            <h3 class="texttres">Computador:</h3>
+            <img src="../imgs/pc.png" alt="PC" id="pc" class="pcc">
+            <hr>
+            <h3 id="placar"></h3>
+            <hr>
+            <p>@author Victor Pompeu</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
